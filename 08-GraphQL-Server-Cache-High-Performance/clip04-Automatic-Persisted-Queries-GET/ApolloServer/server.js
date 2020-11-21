@@ -12,21 +12,20 @@ const resolvers = {
 };
 
 async function apolloServer() {
-    const server = new ApolloServer({
-      typeDefs,
-      resolvers,
-      context: () => {
-        return {
-          roomLoader: getRoomLoader(),
-          sessionsLoader: getSessionsLoader(),
-        };
-      },
-      cacheControl: {
-        defaultMaxAge: 5,
-      },
-    });
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    context: () => {
+      return {
+        roomLoader: getRoomLoader(),
+        sessionsLoader: getSessionsLoader(),
+      };
+    },
+    cacheControl: {
+      defaultMaxAge: 5,
+    },
+  });
 
-    
   const PORT = process.env.PORT || 4000;
 
   server.listen(PORT, () => {

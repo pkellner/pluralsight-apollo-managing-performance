@@ -1,7 +1,7 @@
-const {getRoomLoader} = require("./roomLoader");
-const {getSessionsLoader} = require("./sessionsLoader");
+const { getRoomLoader } = require("./roomLoader");
+const { getSessionsLoader } = require("./sessionsLoader");
 
-    module.exports = {
-      getRoomLoader,
-      getSessionsLoader,
-    }
+module.exports = {
+  getRoomLoader,
+  getSessionsLoader,
+};

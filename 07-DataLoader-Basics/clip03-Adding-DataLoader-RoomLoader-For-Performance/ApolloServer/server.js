@@ -143,7 +143,7 @@ const resolvers = {
       };
     },
   },
-  
+
   Session: {
     async room(parent, args, { roomLoader }, info) {
       const roomId = parent.roomId;
@@ -224,10 +224,10 @@ const resolvers = {
       await axios.delete(url);
       return foundRec.data;
     },
-  },};
+  },
+};
 
-
-  async function apolloServer() {
+async function apolloServer() {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
@@ -245,7 +245,7 @@ const resolvers = {
             return roomMap[roomId];
           });
         }),
-      }
+      };
     },
   });
 

@@ -2,7 +2,6 @@ const { gql, ApolloServer, UserInputError } = require("apollo-server");
 const axios = require("axios");
 
 const typeDefs = gql`
-
   type Room {
     id: ID!
     name: String

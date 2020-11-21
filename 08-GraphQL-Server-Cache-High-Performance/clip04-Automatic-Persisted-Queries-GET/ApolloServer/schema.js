@@ -11,7 +11,7 @@ module.exports = gql`
     id: ID!
     first: String
     last: String
-    favorite: Boolean @cacheControl(maxAge: 5,scope: PRIVATE)
+    favorite: Boolean @cacheControl(maxAge: 5, scope: PRIVATE)
     cursor: String
     company: String
     twitterHandle: String

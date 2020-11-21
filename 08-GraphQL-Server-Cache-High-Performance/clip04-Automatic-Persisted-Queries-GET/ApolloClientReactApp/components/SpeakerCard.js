@@ -4,11 +4,12 @@ const SpeakerCard = ({ speakerRec }) => {
   const { id, first, last, bio, favorite, company, twitterHandle } = speakerRec;
 
   const sessions = speakerRec?.sessions
-    ? [...speakerRec.sessions].sort((a,b) => {
-        return b.eventYear.localeCompare(a.eventYear);
-      }).slice(0,3)
+    ? [...speakerRec.sessions]
+        .sort((a, b) => {
+          return b.eventYear.localeCompare(a.eventYear);
+        })
+        .slice(0, 3)
     : [];
-
 
   return (
     <div className="col-md-6 speaker-col show-sessions">
@@ -54,15 +55,15 @@ const SpeakerCard = ({ speakerRec }) => {
         </div>
       </div>
       <div className="sessionBox">
-        {sessions
-          .map((session) => {
-            return (
-              <span className="session" key={session.id}>
-                "{session.title.slice(0, 75)} "{' '}
-                <strong>Room: {session.room.name}</strong>&nbsp;&nbsp;<i>{session.eventYear}</i>
-              </span>
-            );
-          })}
+        {sessions.map((session) => {
+          return (
+            <span className="session" key={session.id}>
+              "{session.title.slice(0, 75)} "{' '}
+              <strong>Room: {session.room.name}</strong>&nbsp;&nbsp;
+              <i>{session.eventYear}</i>
+            </span>
+          );
+        })}
       </div>
     </div>
   );

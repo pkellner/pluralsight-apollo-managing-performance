@@ -1,12 +1,12 @@
 const axios = require("axios");
 const DataLoader = require("dataloader");
 
-    module.exports = {
-      getSessionsLoader: () =>
-        new DataLoader(async (speakerIds) => {
-          const responseSessions = await axios.get(
-            "http://localhost:5000/sessions"
-          );
+module.exports = {
+  getSessionsLoader: () =>
+    new DataLoader(async (speakerIds) => {
+      const responseSessions = await axios.get(
+        "http://localhost:5000/sessions"
+      );
       const responseSessionSpeakers = await axios.get(
         "http://localhost:5000/sessionSpeakers"
       );

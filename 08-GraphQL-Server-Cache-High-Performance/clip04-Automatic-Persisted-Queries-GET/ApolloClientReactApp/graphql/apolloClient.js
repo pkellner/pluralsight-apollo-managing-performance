@@ -1,8 +1,8 @@
 import { ApolloClient, InMemoryCache, makeVar } from '@apollo/client';
 import { generalConcatPagination } from './pagination';
-import { createPersistedQueryLink } from "apollo-link-persisted-queries";
-import { ApolloLink } from "apollo-link";
-import { createHttpLink } from "apollo-link-http";
+import { createPersistedQueryLink } from 'apollo-link-persisted-queries';
+import { ApolloLink } from 'apollo-link';
+import { createHttpLink } from 'apollo-link-http';
 
 export const currentThemeVar = makeVar('light');
 export const checkBoxListVar = makeVar([]);
@@ -14,8 +14,8 @@ export const paginationDataVar = makeVar({
 });
 
 const link = ApolloLink.from([
-  createPersistedQueryLink({useGETForHashedQueries: true}),
-  createHttpLink({uri: "http://localhost:4000/graphql"}),
+  createPersistedQueryLink({ useGETForHashedQueries: true }),
+  createHttpLink({ uri: 'http://localhost:4000/graphql' }),
 ]);
 
 export function useApollo() {

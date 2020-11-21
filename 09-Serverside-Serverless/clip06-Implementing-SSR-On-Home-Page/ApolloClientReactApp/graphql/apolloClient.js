@@ -54,8 +54,8 @@ export function initializeApollo(initialState = null, pageProps) {
 
   paginationDataVar({
     ...paginationDataVar(),
-    currentPage: parseInt(pageProps.currentPage -1),
-  })
+    currentPage: parseInt(pageProps.currentPage - 1),
+  });
 
   const _apolloClient =
     apolloClient ??

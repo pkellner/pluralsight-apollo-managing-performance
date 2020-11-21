@@ -12,16 +12,16 @@ const resolvers = {
 };
 
 async function apolloServer() {
-    const server = new ApolloServer({
-      typeDefs,
-      resolvers,
-      context: () => {
-        return {
-          roomLoader: getRoomLoader(),
-          sessionsLoader: getSessionsLoader(),
-        };
-      },
-    });
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    context: () => {
+      return {
+        roomLoader: getRoomLoader(),
+        sessionsLoader: getSessionsLoader(),
+      };
+    },
+  });
 
   const PORT = process.env.PORT || 4000;
 

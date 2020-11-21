@@ -7,7 +7,7 @@ const IndexPage = () => {
   return <SpeakerListItems />;
 };
 
-export async function getServerSideProps({query}) {
+export async function getServerSideProps({ query }) {
   const currentPage = query && query.page ? query.page : 1;
   const apolloClient = initializeApollo(undefined, { currentPage });
 
