@@ -1,13 +1,16 @@
-import {useQuery, useReactiveVar} from '@apollo/client';
+import { useQuery, useReactiveVar } from '@apollo/client';
 import Toolbar from '../components/Toolbar';
-import {GET_SPEAKERS} from '../graphql/queries';
+import { GET_SPEAKERS } from '../graphql/queries';
 import React from 'react';
 import SpeakerItem from './SpeakerItem';
-import {currentThemeVar} from '../graphql/apolloClient';
+import { currentThemeVar } from '../graphql/apolloClient';
 
 const IndexPage = () => {
   const { loading, error, data } = useQuery(GET_SPEAKERS);
-   c   const currentTheme = useReactiveVar(currentThemeVar);     if (loading) return <div className="">Loading...</div>; 
+  const currentTheme = useReactiveVar(currentThemeVar);
+
+  if (loading) return <div className="">Loading...</div>;
+
   if (error === true) return <div className="col-sm6">Error</div>;
 
   return (
@@ -21,7 +24,7 @@ const IndexPage = () => {
             {data.speakers.datalist.map(
               ({ id, first, last, favorite, fullName, checkBoxColumn }) => {
                 return (
-                   <SpeakerItem
+                  <SpeakerItem
                     key={id}
                     speakerRec={{
                       id,

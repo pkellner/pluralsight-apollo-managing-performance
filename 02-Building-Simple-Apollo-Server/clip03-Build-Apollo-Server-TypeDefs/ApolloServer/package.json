@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"Place holder for build. No Action taken here\""
   },
   "keywords": [],
   "author": "",

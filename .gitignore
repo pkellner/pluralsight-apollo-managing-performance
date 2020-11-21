@@ -109,3 +109,4 @@ package-lock.json
 workspace.xml
 npm_check.sh
 npm_check
+npmCheck
