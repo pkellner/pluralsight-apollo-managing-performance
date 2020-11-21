@@ -76,7 +76,7 @@ input:checked + .switch:before {-webkit-transform: translateX(34px);-ms-transfor
 .btn-load{padding:15px 30px!important; font-size:15px; font-weight:bold; border:0; background-color: #51B5B1;} .btn-load:hover{background:#66ade1;}
 .btn-load .fa{font-weight:400; font-size:16px; padding-right:5px;}
 
-.sessionBox{border-top:1px solid #d6d6d6; border-radius:0 0 5px 5px; padding:10px 50px 10px 15px;  background:#fff; position:relative; display:none;}
+.sessionBox{border-top:1px solid #d6d6d6; border-radius:0 0 5px 5px; padding:10px 50px 10px 15px;  background:#fff; position:relative; display:block;}
 .session{background:#edecec; border-radius:5px; padding:10px; display:inline-block; font-size:14px; color:#6d6d6d; margin:5px 0;}
 .session strong{font-weight:600; color:#202020;}
 .addSes{position:absolute; bottom:15px; right:10px;}
