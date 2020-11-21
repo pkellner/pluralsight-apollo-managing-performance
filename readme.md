@@ -1,7 +1,7 @@
 # pluralsight-apollo-managing-performance 
 The master branch has all the source code to the Pluralsight course published by Peter Kellner November 19, 2020
 
-Course URL: 
+Course URL: https://pluralsight.com/courses/apollo-performance-management-playbook
 
 ![Benefits of Using Apollo Client and Server Together](m2-clip010-justmergingimage.gif)
 
