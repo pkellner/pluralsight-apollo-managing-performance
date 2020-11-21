@@ -1,0 +1,24 @@
+{
+  "name": "apollo-performance-management-playbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Place holder for build. No Action taken here\"",
+    "run-server": "nodemon server.js --ignore db.json",
+    "json-server": "json-server db.json --delay 500 --port 5000",
+    "start": "npm-run-all --parallel json-server run-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.0",
+    "axios": "^0.20.0",
+    "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.2"
+  }
+}

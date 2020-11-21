@@ -1,0 +1,1 @@
+** No Change From clip01.  This is a clip that discusses normalizing data only

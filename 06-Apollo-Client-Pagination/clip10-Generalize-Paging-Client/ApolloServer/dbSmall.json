@@ -1,0 +1,1782 @@
+{
+  "speakers": [
+    {
+      "twitterHandle": "arungupta",
+      "company": "Couchbase",
+      "id": 1269,
+      "bio": "Arun Gupta is a Principal Open Source Technologist at Amazon Web Services. ",
+      "first": "Arun",
+      "last": "Gupta",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "@crichardson",
+      "company": "Eventuate, Inc",
+      "id": 8590,
+      "bio": "Founder of Eventuate, Author of POJOs in Action, creator of the original Cloud Foundry",
+      "first": "Chris",
+      "last": "Richardson",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "@mark__a",
+      "company": "Printform Corporation",
+      "id": 5443,
+      "bio": "Mark is a globally recognized expert on digital printing for industrial and packaging applications.",
+      "first": "Mark",
+      "last": "Abramson",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "",
+      "company": "",
+      "id": 1124,
+      "bio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+      "first": "Douglas",
+      "last": "Crockford",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "@therockncoder",
+      "company": "Kelley Blue Book",
+      "id": 10801,
+      "bio": "An award winning developer and author.",
+      "first": "Troy",
+      "last": "Miles",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "@eveporcello",
+      "company": "Moon Highway",
+      "id": 47343,
+      "bio": "Eve Porcello is an instructor at Moon Highway, egghead.io, and LinkedIn Learning.",
+      "first": "Eve",
+      "last": "Porcello",
+      "favorite": true
+    },
+    {
+      "twitterHandle": "@cgalvan",
+      "company": "Early Stage Innovation",
+      "id": 14918,
+      "bio": "Claudia is a leading expert on product internationalization",
+      "first": "Claudia",
+      "last": "Galvan",
+      "favorite": true
+    },
+    {
+      "twitterHandle": "mgrygles",
+      "company": "IBM",
+      "id": 46769,
+      "bio": "Mary is a passionate developer advocate by day, and a very active tech community organizer by night.",
+      "first": "Mary",
+      "last": "Grygleski",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "gayle",
+      "company": "CareerCup",
+      "id": 8367,
+      "bio": "Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books.",
+      "first": "Gayle Laakmann",
+      "last": "McDowell",
+      "favorite": false
+    },
+    {
+      "company": "De Anza College",
+      "id": 620,
+      "bio": "Ron teaches Object Oriented Analysis and Design at De Anza College ",
+      "first": "Ron",
+      "last": "Kleinman",
+      "favorite": false
+    }
+  ],
+  "sessions": [
+    {
+      "id": 12,
+      "title": "JavaScript: The Good Parts (Part 1)",
+      "description": "JavaScript is a language with more than its share...",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2008",
+      "level": "Advanced",
+      "favorite": false
+    },
+    {
+      "id": 32,
+      "title": "Rails powered by GlassFish",
+      "description": "Are you an existing Ruby user looking for...",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2008",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 58,
+      "title": "Metro: Hello World to .NET 3.5 interoperable Web service",
+      "description": "Metro is an open source Web services stack...",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2008",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 61,
+      "title": "GlassFish: On a mission to please developers",
+      "description": "Since its launch in 2005, GlassFish has come a...",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2008",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 86,
+      "title": "The Performance Limitations  of the Java Platform ... and how to avoid them",
+      "description": "The Java platform, like other Managed Runtime...",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2008",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 121,
+      "title": "JavaScript: The Good Parts (Part 2)",
+      "description": "JavaScript is a language with more than its share...",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2008",
+      "level": "Advanced",
+      "favorite": false
+    },
+    {
+      "id": 176,
+      "title": "JavaScript: The Good Parts",
+      "description": "JavaScript is a language with more than its share...",
+      "room": "5501",
+      "day": "October 03 2009",
+      "time": "09:45 AM",
+      "eventYear": "2009",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 177,
+      "title": "JavaScript Town Meeting",
+      "description": "Let's talk about JavaScript in all of its aspects,...",
+      "room": "5501",
+      "day": "October 03 2009",
+      "time": "11:00 AM",
+      "eventYear": "2009",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 263,
+      "title": "Java EE 6 and GlassFish v3: Paving the path for future",
+      "description": "The Java EE platform is getting an extreme...",
+      "room": "5502",
+      "day": "October 03 2009",
+      "time": "09:45 AM",
+      "eventYear": "2009",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 264,
+      "title": "Using Eclipse for Java EE 6 development for the GlassFish™ Application Server",
+      "description": "This session presents the GlassFish™ Tools Bundle...",
+      "room": "5503",
+      "day": "October 03 2009",
+      "time": "11:00 AM",
+      "eventYear": "2009",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 371,
+      "title": "JavaScript: The Good Parts",
+      "description": "Unexpectedly, JavaScript has become the world's...",
+      "room": "1501",
+      "day": "October 09 2010",
+      "time": "09:45 AM",
+      "eventYear": "2010",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 440,
+      "title": "Java EE 6: Doing More With Less",
+      "description": "The Java EE 6 platform is developed as JSR 316...",
+      "room": "8401",
+      "day": "October 09 2010",
+      "time": "09:45 AM",
+      "eventYear": "2010",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 441,
+      "title": "OSGi and Java EE in GlassFish",
+      "description": "OSGi defines a module system and service platform...",
+      "room": "4220",
+      "day": "October 09 2010",
+      "time": "01:45 PM",
+      "eventYear": "2010",
+      "level": "Advanced",
+      "favorite": false
+    },
+    {
+      "id": 444,
+      "title": "Running your Java EE 6 application in the Cloud",
+      "description": "The Java EE 6 platform is an extreme makeover from...",
+      "room": "3106",
+      "day": "October 09 2010",
+      "time": "11:15 AM",
+      "eventYear": "2010",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 536,
+      "title": "Talk with Crock",
+      "description": "Dialog and story telling on the state of JSON,...",
+      "room": "1501",
+      "day": "October 09 2010",
+      "time": "11:15 AM",
+      "eventYear": "2010",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 588,
+      "title": "ECMAScript 5: The New Parts",
+      "description": "ECMAScript&#39;s Fifth Edition is now available in...",
+      "room": "1501",
+      "day": "October 08 2011",
+      "time": "09:45 AM",
+      "eventYear": "2011",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 589,
+      "title": "ECMAScript: What Next?",
+      "description": "This session will be an open discussion of what...",
+      "room": "1501",
+      "day": "October 08 2011",
+      "time": "11:15 AM",
+      "eventYear": "2011",
+      "level": "Advanced",
+      "favorite": false
+    },
+    {
+      "id": 676,
+      "title": "Accelerate your database development with Object-Relational Mapping (OR/M) in .NET",
+      "description": "&lt;p&gt;&lt;b&gt;Wish you could just...",
+      "room": "8401",
+      "day": "October 08 2011",
+      "time": "09:45 AM",
+      "eventYear": "2011",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 677,
+      "title": "Introduction to Database Design with Entity Relationship (ER) Diagrams",
+      "description": "&lt;p&gt;&lt;b&gt;Developer working with a...",
+      "room": "5501",
+      "day": "October 09 2011",
+      "time": "09:15 AM",
+      "eventYear": "2011",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 766,
+      "title": "Deploy and Monitor your Java EE 6 session in a fully-clustered GlassFish",
+      "description": "The NetBeans IDE and GlassFish provide a seamless...",
+      "room": "4201",
+      "day": "October 08 2011",
+      "time": "09:45 AM",
+      "eventYear": "2011",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 770,
+      "title": "The Java EE 7 Platform: Developing for the Cloud",
+      "description": "This talk introduces the Java EE 7 platform, the...",
+      "room": "4201",
+      "day": "October 08 2011",
+      "time": "11:15 AM",
+      "eventYear": "2011",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 833,
+      "title": "Programming Style and Your Brain",
+      "description": "Computer programs are the most complicated things...",
+      "room": "SmithWick",
+      "day": "October 06 2012",
+      "time": "09:45 AM",
+      "eventYear": "2012",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 859,
+      "title": "Database Design Troubleshooting, repair and wart removal",
+      "description": "Based on the success of last year&#39;s...",
+      "room": "3525",
+      "day": "October 06 2012",
+      "time": "11:15 AM",
+      "eventYear": "2012",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 861,
+      "title": "Introduction to Database Design with Entity Relationship (ER) Diagrams",
+      "description": "Developer working with a database? Need to build a...",
+      "room": "3525",
+      "day": "October 06 2012",
+      "time": "09:45 AM",
+      "eventYear": "2012",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 864,
+      "title": "RESTful Java on Steroids: JAX-RS 2.0",
+      "description": "JAX-RS 1.X has been a hugely successful Java API...",
+      "room": "5502",
+      "day": "October 06 2012",
+      "time": "11:15 AM",
+      "eventYear": "2012",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 944,
+      "title": "Cracking the Coding Interview",
+      "description": "CS interviews are a different breed from other...",
+      "room": "SmithWick",
+      "day": "October 06 2012",
+      "time": "01:45 PM",
+      "eventYear": "2012",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1011,
+      "title": "Decomposing applications for scalability and deployability",
+      "description": "Today, there are several trends that are forcing...",
+      "room": "4306",
+      "day": "October 06 2012",
+      "time": "01:45 PM",
+      "eventYear": "2012",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 1056,
+      "title": "Monads and Gonads",
+      "description": "The wonders of monads are finally revealed without...",
+      "room": "SmithWick",
+      "day": "October 06 2012",
+      "time": "11:15 AM",
+      "eventYear": "2012",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 1086,
+      "title": "Cracking the Coding Interview: Advice for Devs and PM Interviews",
+      "description": "CS interviews are a different breed from other...",
+      "room": "SmithWick",
+      "day": "October 05 2013",
+      "time": "03:30 PM",
+      "eventYear": "2013",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1120,
+      "title": "Intro to Relational Database Design & Entity-Relationship Diagrams",
+      "description": "Mark will cover the basics of designing and...",
+      "room": "1501",
+      "day": "October 05 2013",
+      "time": "11:15 AM",
+      "eventYear": "2013",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1125,
+      "title": "Advanced Data Modeling with Entity Relationship Diagrams",
+      "description": "In this session we will dive in deeper and work on...",
+      "room": "PSEC4501",
+      "day": "October 05 2013",
+      "time": "01:45 PM",
+      "eventYear": "2013",
+      "level": "Advanced",
+      "favorite": false
+    },
+    {
+      "id": 1131,
+      "title": "50 new features of Java EE 7 in 50 minutes",
+      "description": "The Java EE 7 Platform has 4 new components...",
+      "room": "3525",
+      "day": "October 05 2013",
+      "time": "05:00 PM",
+      "eventYear": "2013",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1133,
+      "title": "Developing polyglot persistence applications",
+      "description": "NoSQL databases such as Redis, MongoDB and...",
+      "room": "5502",
+      "day": "October 05 2013",
+      "time": "05:00 PM",
+      "eventYear": "2013",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1136,
+      "title": "Consuming web services asynchronously with Futures and Rx Observables",
+      "description": "A modular, polyglot architecture has many...",
+      "room": "8338",
+      "day": "October 06 2013",
+      "time": "09:15 AM",
+      "eventYear": "2013",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 1198,
+      "title": "Fun with Functions (Part 1)",
+      "description": "This mind expanding workshop will help you to...",
+      "room": "SmithWick",
+      "day": "October 05 2013",
+      "time": "09:45 AM",
+      "eventYear": "2013",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 1199,
+      "title": "Fun with Functions (Part 2)",
+      "description": "And it Continues.\n<br/><br/>\nPart 2\n<br/><br/>...",
+      "room": "SmithWick",
+      "day": "October 05 2013",
+      "time": "11:15 AM",
+      "eventYear": "2013",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 1252,
+      "title": "Beginning HTML5 Mobile Game Programming",
+      "description": "In this session, I will present a simple HTML5...",
+      "room": "8338",
+      "day": "October 05 2013",
+      "time": "09:45 AM",
+      "eventYear": "2013",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1262,
+      "title": "Minecraft Modding Workshop (Part 1 of 2)",
+      "description": "Kids must be 10+ years to participate.\n\nMinecraft...",
+      "room": "PSEC4603",
+      "day": "October 06 2013",
+      "time": "01:15 PM",
+      "eventYear": "2013",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1352,
+      "title": "Minecraft Modding Workshop (Part 2 of 2)",
+      "description": "Kids must be 10+ years to participate.\n\nMinecraft...",
+      "room": "PSEC4603",
+      "day": "October 06 2013",
+      "time": "02:45 PM",
+      "eventYear": "2013",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1390,
+      "title": "Fun with Functions in JavaScript (Full Day)",
+      "description": "<p>This hands-on workshop is about using functions and thinking with functions to take your JavaScript use to another level.</p>\n",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1412,
+      "title": "Cracking the Coding Interview",
+      "description": "From the author of the best-selling coding interview book, this talk will teach you how to prepare for coding interviews and how to tackle the toughest programming and algorithm problems. ",
+      "room": "SmithWick",
+      "day": "October 11 2014",
+      "time": "01:45 PM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1413,
+      "title": "Cracking the Product Manager Interview",
+      "description": "Product managers are sometimes called the \"CEO of a product.\" But what is a product manager really and how you do you land this role? How to crack the PM interview?",
+      "room": "5015",
+      "day": "October 11 2014",
+      "time": "11:15 AM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1416,
+      "title": "The Better Parts",
+      "description": "This talk is about using programming languages more effectively, and using that experience to create and select better programming languages. ",
+      "room": "SmithWick",
+      "day": "October 11 2014",
+      "time": "09:45 AM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1435,
+      "title": "Intro to Relational Database Design & Entity-Relationship Diagrams",
+      "description": "Mark will cover the basics of designing and setting up a database schema.",
+      "room": "8402",
+      "day": "October 11 2014",
+      "time": "05:00 PM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1440,
+      "title": " All about WildFly, Only using demos",
+      "description": "Learn the key features of WildFly using several live demos. Setting up 2-instance cluster, Role Based Access Control, powerful CLI administration, integration with NetBeans/Eclipse/IntelliJ, and a variety of others.",
+      "room": "4302",
+      "day": "October 11 2014",
+      "time": "05:00 PM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1441,
+      "title": "Java EE 7 development using Eclipse",
+      "description": "Learn how to build a Java EE 7 application using Eclipse.",
+      "room": "4301",
+      "day": "October 11 2014",
+      "time": "03:30 PM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1444,
+      "title": "Intro to Mobile Game Programming with Cocos2d-x, Part 1",
+      "description": "Learn to build mobile games with the free and open source Cocos2d-x game engine.",
+      "room": "4220",
+      "day": "October 11 2014",
+      "time": "03:30 PM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1445,
+      "title": "Intro to Mobile Game Programming with Cocos2d-x, Part 2",
+      "description": "In the second session, we will put together a simple but playable game.",
+      "room": "4220",
+      "day": "October 11 2014",
+      "time": "05:00 PM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 1454,
+      "title": "Developing applications with a micro-service architecture",
+      "description": "In this talk we describe the micro-service architecture and how to use it to build complex applications.",
+      "room": "8338",
+      "day": "October 11 2014",
+      "time": "05:00 PM",
+      "eventYear": "2014",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 1455,
+      "title": "Map, flatmap and reduce are your new best friends",
+      "description": "In this talk you will learn how these and other higher-order functions enable you to write simple, expressive and concise code that solve problems in a diverse set of domains. ",
+      "room": "5502",
+      "day": "October 11 2014",
+      "time": "09:45 AM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 2529,
+      "title": "Introductory Minecraft Modding with Forge - Part 1",
+      "description": "In this session, you will learn the basics of making Minecraft mods using Forge. We will setup a basic development environment and create a few mods.",
+      "room": "PSEC4501",
+      "day": "October 12 2014",
+      "time": "09:15 AM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 2557,
+      "title": "Introductory Minecraft Modding with Forge - Part II",
+      "description": "In this session, you will learn the basics of making Minecraft mods using Forge. We will setup a basic development environment and create a few plugins.",
+      "room": "PSEC4501",
+      "day": "October 12 2014",
+      "time": "10:45 AM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 2577,
+      "title": "Lean Startup for Engineers",
+      "description": "Learn how to identify your customer and understand their problem. Only then can you be sure you're solving the right problem for the right person. Critical for anyone building software or developing products. Your mind WILL BE BLOWN!",
+      "room": "8402",
+      "day": "October 11 2014",
+      "time": "03:30 PM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 3643,
+      "title": "Managing Programmers. Programmers are not like the other kids",
+      "description": " Techniques that are effective in managing other professions do not work on programmers. This talk is for managers who want to be better managers of programmers, and for programmers who want to help their managers to be better managers of programmers",
+      "room": "1501",
+      "day": "October 11 2014",
+      "time": "11:15 AM",
+      "eventYear": "2014",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 3687,
+      "title": "The Better Parts",
+      "description": "The 6th Edition of JavaScript's ECMAScript standard was published in June of this year. It contains some important new good parts, many unnecessary and unimportant features, and unfortunately, more really bad parts.",
+      "room": "VPA-Theater",
+      "day": "October 03 2015",
+      "time": "09:45 AM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 3694,
+      "title": "Docker and Kubernetes Recipes for Java Applications",
+      "description": "This session shows how to package your Java EE application using Docker and Kubernetes.",
+      "room": "AD-123",
+      "day": "October 03 2015",
+      "time": "03:30 PM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 3696,
+      "title": "Managing Programmers",
+      "description": "Programmers are not like the other kids. They cannot and should not be managed like normal people.",
+      "room": "VPA-Theater",
+      "day": "October 03 2015",
+      "time": "11:15 AM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 3701,
+      "title": "Cracking the Coding Interview",
+      "description": "From the author of the best-selling coding interview book, this talk will teach you how to prepare for coding interviews and how to tackle the toughest programming and algorithm problems.",
+      "room": "VPA-Theater",
+      "day": "October 03 2015",
+      "time": "01:45 PM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 3703,
+      "title": "Cracking the Product Manager Interview",
+      "description": "Product managers are sometimes called the \"CEO of a product.\" But what is a product manager really and how you do you land this role? How to crack the PM interview?",
+      "room": "SC-127",
+      "day": "October 03 2015",
+      "time": "05:00 PM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 4726,
+      "title": "Upgrading the Web",
+      "description": "This talk suggests a way forward, taking inspiration from our successful transition from NTSC to HDTV. There is a way forward to a web that is safer, easier, and as good as we desire.",
+      "room": "Not Assigned",
+      "day": "June 22 2015",
+      "time": "04:30 PM",
+      "eventYear": "2015sf",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 4765,
+      "title": "Developing event-driven microservices with event sourcing and CQRS",
+      "description": "Learn how to develop event-driven micro services with event sourcing and Command Query Responsibility Segregation\n",
+      "room": "AB-201",
+      "day": "October 03 2015",
+      "time": "01:45 PM",
+      "eventYear": "2015",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 4819,
+      "title": "Lean Startup for Engineers",
+      "description": "We engineers build features without ever talking to the customers and users who they benefit. We'll start with how to define your customer and discover what their true problem is.",
+      "room": "AC-162",
+      "day": "October 03 2015",
+      "time": "01:45 PM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 4820,
+      "title": "Innovation for Women Engineers",
+      "description": "Women engineers often think they are not innovative. In this interactive workshop attendees will have the opportunity to start the innovation process using mind maps, user design thinking and moving their ideas through the corporate maze.",
+      "room": "RE-311",
+      "day": "October 04 2015",
+      "time": "09:15 AM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 4835,
+      "title": "Docker and Kubernetes Workshop",
+      "description": "Containers are enabling developers to package their\napplications (and underlying dependencies) in new ways that are\nportable and work consistently everywhere? \nOn your machine, in\nproduction, in your data center, and in the cloud. And Docker has\nbecome the de facto standard for those portable containers in the\ncloud.",
+      "room": "RD-301",
+      "day": "October 02 2015",
+      "time": "09:00 AM",
+      "eventYear": "2015fall",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 4860,
+      "title": "Minecraft Modding with Forge - Part 1",
+      "description": "Have you always wondered what it takes to write Minecraft mods ? In this workshop we'll teach kids how to build Minecraft mods using Forge 1.8. You'll learn how to spawn an Ender Dragon with a dragon egg, create an alert message when creeper is spawned, make skeletons fight with each other, and lot of other fun mods. In the process, you'll also learn some basic Java programming skills. The workshop will use Eclipse for editing and so kids will get their first experience of IDE as well.",
+      "room": "AB-142",
+      "day": "October 04 2015",
+      "time": "01:15 PM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 5922,
+      "title": "Minecraft Modding with Forge - Part 2",
+      "description": "Make sure you've attended Part 1 of the session.\n\nHave you always wondered what it takes to write Minecraft mods ? In this workshop we'll teach kids how to build Minecraft mods using Forge 1.8. You'll learn how to spawn an Ender Dragon with a dragon egg, create an alert message when creeper is spawned, make skeletons fight with each other, and lot of other fun mods. In the process, you'll also learn some basic Java programming skills. The workshop will use Eclipse for editing and so kids will get their first experience of IDE as well.",
+      "room": "AB-142",
+      "day": "October 04 2015",
+      "time": "02:45 PM",
+      "eventYear": "2015",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 5984,
+      "title": "Cracking the Coding Interview",
+      "description": "What's the deal with the coding interviews at companies like Google and Facebook? Learn what these companies really want, what CS topics you do and don't need to know, and strategies to solve their tough coding and algorithm problems.",
+      "room": "VPA-Theater",
+      "day": "October 01 2016",
+      "time": "03:30 PM",
+      "eventYear": "2016",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 5986,
+      "title": "Be a Better Interviewer: How to Interview Like Google (or not)-But Better!",
+      "description": "Be a better interviewer: make candidates happier, raise the bar, create a consistent process, and avoid rejecting good candidates or hiring bad ones. We'll discuss multiple interview styles so you can interview like Google (or not)-but better!",
+      "room": "SC-127",
+      "day": "October 01 2016",
+      "time": "01:45 PM",
+      "eventYear": "2016",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 5987,
+      "title": "The Seif Project Continued",
+      "description": "This talk introduces Seif, an open source project that  has the goal of transitioning the web into an application delivery system that will be safer, easier to use, and easier to develop for.",
+      "room": "VPA-Theater",
+      "day": "October 01 2016",
+      "time": "11:15 AM",
+      "eventYear": "2016",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6012,
+      "title": "Internationalization at Startups",
+      "description": "When startups start looking at additional revenue and growth opportunities, some look into expanding into international markets. There is an art of pivoting successfully into a global player, we will review the best practices in the industry.",
+      "room": "S-160",
+      "day": "October 02 2016",
+      "time": "09:15 AM",
+      "eventYear": "2016",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6060,
+      "title": "Package, Deploy, Scale Your Applications Using Docker and Kubernetes",
+      "description": "This tutorial shows how to package, deploy, and scale Java applications with Docker and Kubernetes.",
+      "room": "Not Assigned",
+      "day": "Not Assigned",
+      "time": "Not Assigned",
+      "eventYear": "2016fall",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6080,
+      "title": "Developing Microservices with Aggregates",
+      "description": "Learn how to Domain-Driven design aggregates to design modular business logic that can be partitioned into microservices. ",
+      "room": "RF-141",
+      "day": "October 01 2016",
+      "time": "09:45 AM",
+      "eventYear": "2016",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 6085,
+      "title": "Functional Programming in JavaScript",
+      "description": "Unlike most other programming languages, JavaScript straddles the line between imperative, object-oriented languages and functional ones. What if we programmed JavaScript functionally?",
+      "room": "Gullo II",
+      "day": "October 01 2016",
+      "time": "01:45 PM",
+      "eventYear": "2016",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6089,
+      "title": "So your mom always wanted you to be an architect",
+      "description": "Highlights the techniques used by a software architect to analyze and design complex back office computer apps. Covers classifying objects and designing systems leveraging inheritance, polymorphism, encapsulation, reuse and design patterns.",
+      "room": "C209",
+      "day": "October 01 2016",
+      "time": "01:45 PM",
+      "eventYear": "2016",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6171,
+      "title": "The Post Javascript Apocalypse",
+      "description": "This talk speculates about the next language after JavaScript, and what to do in the mean time about some of the new features in ES6. There will be an emphasis on simplicity and quality. The web is cluttered and full of errors.",
+      "room": "VPA-Theater",
+      "day": "October 01 2016",
+      "time": "09:45 AM",
+      "eventYear": "2016",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6184,
+      "title": "Lean Startup for Engineers",
+      "description": "Discover your customer and find out what they will pay for!  We'll show you how in this session to define your customer and discover what their true problem is.",
+      "room": "Fireside D",
+      "day": "October 07 2017",
+      "time": "03:00 PM",
+      "eventYear": "2017",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6205,
+      "title": "Service Discovery in Container Orchestration Frameworks",
+      "description": "Learn how service discovery works in different container orchestration frameworks.",
+      "room": "Town Square C",
+      "day": "October 07 2017",
+      "time": "10:45 AM",
+      "eventYear": "2017",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6208,
+      "title": "Numbers",
+      "description": "Computers are machines that manipulate numbers. That is literally all that they can do, and yet they are now facilitating and mediating virtually all human activity. This is the story of numbers: where they came from, how they work, and where they may be going. Every programmer should know this story.",
+      "room": "Town Square B",
+      "day": "October 07 2017",
+      "time": "10:45 AM",
+      "eventYear": "2017",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6209,
+      "title": "Character Sets",
+      "description": "This is the story of the representation of text as numbers. We will range from the earliest codes, Hollerith and Morse, to what will likely be the last character code, Unicode. The mysterious control codes of ASCII will be explained. Subtle decisions made in the last century had large unintended consequences. The irritating eternal dilemma \"Tabs or Spaces?\" will finally be resolved logically for the first time.",
+      "room": "Town Square B",
+      "day": "October 07 2017",
+      "time": "12:30 PM",
+      "eventYear": "2017",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6214,
+      "title": "There Is No Such Thing as a Microservice!",
+      "description": "What is architecture, why it matters and what exactly is the microservice architecture?",
+      "room": "Town Square C",
+      "day": "October 07 2017",
+      "time": "01:30 PM",
+      "eventYear": "2017",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 6227,
+      "title": "Cracking the Coding Interview",
+      "description": "Programmer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.",
+      "room": "Fireside B",
+      "day": "October 07 2017",
+      "time": "01:30 PM",
+      "eventYear": "2017",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 6229,
+      "title": "Hiring Coders with Whiteboard Interviews and Other Questions",
+      "description": "Tech companies are infamous for their whiteboard interviews. Learn best practices for doing these at your company -- or even if you should. Engineer and best-selling author will discuss interview styles and what works.",
+      "room": "Town Square B",
+      "day": "October 07 2017",
+      "time": "03:00 PM",
+      "eventYear": "2017",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7242,
+      "title": "Creating an AWS Lambda Function with Kotlin",
+      "description": "In this session, we will create a lambda service on AWS using  Kotlin. Along the way, we will learn what a makes Kotlin an excellent replacement for Java and how simple it is to construct an AWS Lambda function.",
+      "room": "Fireside D",
+      "day": "October 08 2017",
+      "time": "11:15 AM",
+      "eventYear": "2017",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7256,
+      "title": "Principles of Security",
+      "description": "As our systems become more distributed and more connected, security has never been more important. The catalog of known exploits is vast. There are more vulnerabilities and pitfalls than any expert can understand. And yet, security is so important that it can not be left to experts.  Fortunately, all good practices flow from a small set of principles. These principles should be known by every programmer and every manager.",
+      "room": "Town Square B",
+      "day": "October 07 2017",
+      "time": "09:45 AM",
+      "eventYear": "2017",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7341,
+      "title": "Advancing your Career through technical leadership skills ",
+      "description": "Becoming a technical leader requires a sustained and intentional effort. In this talk, we will review some best practices to develop the skills needed to successfully lead technical projects. ",
+      "room": "Town Square A",
+      "day": "October 14 2018",
+      "time": "10:45 AM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7346,
+      "title": "C++ Web Servers and APIs",
+      "description": "C++ is over 33 years old and is still one of the most performant languages in existence. Learn to create a web server and API using C++.",
+      "room": "Fireside A",
+      "day": "October 13 2018",
+      "time": "01:00 PM",
+      "eventYear": "2018",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7366,
+      "title": "Cracking the Coding Interview",
+      "description": "Programmer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.",
+      "room": "Town Square A",
+      "day": "October 13 2018",
+      "time": "02:15 PM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7367,
+      "title": "Interview Like Google (or not)-But Better!",
+      "description": "Be a better interviewer: make candidates happier, raise the bar, create a consistent process, and avoid rejecting good candidates or hiring bad ones. We'll discuss multiple interview styles so you can interview like Google (or not)-but better!",
+      "room": "Town Square A",
+      "day": "October 13 2018",
+      "time": "05:00 PM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7368,
+      "title": "Cracking the Product Manager Interview",
+      "description": "Product managers are sometimes called the \"CEO of a product.\" But what is a product manager really and how you do you land this role? How to crack the PM interview?",
+      "room": "Town Square B",
+      "day": "October 13 2018",
+      "time": "11:00 AM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7379,
+      "title": "Java developer’s journey in Kubernetes land",
+      "description": "This code-only session will explain how a Java application consisting of different microservices can be deployed in a Kubernetes cluster.",
+      "room": "Fireside C",
+      "day": "October 13 2018",
+      "time": "02:15 PM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7401,
+      "title": "Developing Asynchronous, Message-Driven Microservices",
+      "description": "Learn about the key role that messages and events play in a microservice architecture",
+      "room": "Round Table",
+      "day": "October 13 2018",
+      "time": "02:15 PM",
+      "eventYear": "2018",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7402,
+      "title": "Microservices: Decomposing Applications for Testability and Deployability",
+      "description": "Learn how the microservice architecture accelerates the delivery of large, complex applications by improving testability and deployability",
+      "room": "Town Square B",
+      "day": "October 13 2018",
+      "time": "09:30 AM",
+      "eventYear": "2018",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7417,
+      "title": "How JavaScript Works",
+      "description": "Douglas Crockford is the author of <b>How JavaScript Works</b>, the shocking best seller that rips the lid off behind the scenes. In this light-hearted romp thru the world's most misunderstood programming language, Crockford reveals what is actually going on, and how we can use this to write better programs. ",
+      "room": "Town Square A",
+      "day": "October 13 2018",
+      "time": "09:30 AM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7418,
+      "title": "Q&A With Douglas Crockford",
+      "description": "If you've never been to a Q&A session with Douglas Crockford, you are in for a treat.  Ask anything you want, then be prepared for the answer.  This is the follow on session to Douglas Crockford's first session where he talks about <b>How JavaScript Works</b> (his new book).",
+      "room": "Fireside A",
+      "day": "October 13 2018",
+      "time": "11:00 AM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7440,
+      "title": "How to Think like a Software Architect",
+      "description": "Highlights the techniques used by a software architect to analyze requirements and design solutions for complex back office computer apps. Spans object identification, inheritance, polymorphism, encapsulation, reuse and design patterns.",
+      "room": "Fireside A",
+      "day": "October 14 2018",
+      "time": "10:45 AM",
+      "eventYear": "2018",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7460,
+      "title": "Microservices and Serverless Speaker Panel – The Road Ahead",
+      "description": "Join our panel of experienced cloud experts as they answer your questions on the advantages and pitfalls of microservcies and serverless functions, and also share their insights into what comes next.",
+      "room": "Town Square B",
+      "day": "October 14 2018",
+      "time": "09:15 AM",
+      "eventYear": "2018",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7465,
+      "title": "Web Panel with Douglas Crockford, Steve Souders and Mike North",
+      "description": "Join this star filled panel, Douglas Crockford, Steve Souders and Mike North talk about the web. A better set of luminaries you will not find",
+      "room": "Town Square B",
+      "day": "October 13 2018",
+      "time": "01:00 PM",
+      "eventYear": "2018",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7486,
+      "title": "Using Kubernetes for Machine Learning Frameworks",
+      "description": "This talk will explain why and how Kubernetes is well suited for Machine Learing, deploying your ML models in production and setting up visualization tools like TensorBoard for monitoring. Specifically it will show how to setup a variety of open source machine learning frameworks such as TensorFlow, Apache MXNet and Pytorch on a Kubernetes cluster. The attendees will learn distributed training, massaging and inference phases of setting up a Machine Learning framework on Kubernetes.",
+      "room": "Town Square A",
+      "day": "October 20 2019",
+      "time": "10:45 AM",
+      "eventYear": "2019",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7489,
+      "title": "The History of JSON",
+      "description": "Learn about JSON and it's history from the man many say invented it, though  Douglas says he just discovered it.\n",
+      "room": "Town Square A",
+      "day": "October 19 2019",
+      "time": "09:30 AM",
+      "eventYear": "2019",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7497,
+      "title": "GDPR and Privacy Around the World",
+      "description": "The process to manage privacy around the world impacts software development as well as business processes. This talk will provide a high-level overview of managing privacy in global products.",
+      "room": "Fireside B",
+      "day": "October 19 2019",
+      "time": "09:30 AM",
+      "eventYear": "2019",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7515,
+      "title": "Cubes, Hexagons and More: Understanding the Microservices Through Shapes",
+      "description": "Learn microservice architecture essentials through visual metaphors.",
+      "room": "Town Square C",
+      "day": "October 19 2019",
+      "time": "02:15 PM",
+      "eventYear": "2019",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7548,
+      "title": "React Is Your Friend: A Gentle Intro to the React Library",
+      "description": "Where React has been and where it's going, an in-depth look at the React library.",
+      "room": "Town Square B",
+      "day": "October 19 2019",
+      "time": "09:30 AM",
+      "eventYear": "2019",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7549,
+      "title": "A Gentle Intro to Reactive Java Programming and Systems",
+      "description": "As Java is an object-oriented language that inherently supports the imperative programming style, asynchronicity presents a challenge that can turn the code into nightmare.  Reactive programming and systems are new ways to handle the complexity.",
+      "room": "Fireside A",
+      "day": "October 19 2019",
+      "time": "09:30 AM",
+      "eventYear": "2019",
+      "level": "Beginner",
+      "favorite": false
+    },
+    {
+      "id": 7551,
+      "title": "How to \"think\" (and design) like a Software Architect",
+      "description": "Software Architects design solutions for complex back office enterprise applications by identifying the basic abstractions.  Attendees will use their techniques to interactively develop the high level design for such an application.",
+      "room": "Town Square B",
+      "day": "October 20 2019",
+      "time": "10:45 AM",
+      "eventYear": "2019",
+      "level": "Intermediate",
+      "favorite": false
+    },
+    {
+      "id": 7569,
+      "title": "You Can Count on Numbers",
+      "description": "This is an informal history of numbers, from bundled sticks near the \nNile to the supercomputer in your pocket. The machines know only \nnumbers, and the way they think about numbers influences the design of \nour programming languages, which influences the way we think about numbers.",
+      "room": "Town Square A",
+      "day": "October 19 2019",
+      "time": "11:00 AM",
+      "eventYear": "2019",
+      "level": "Beginner",
+      "favorite": false
+    }
+  ],
+  "sessionSpeakers": [
+    {
+      "sessionId": 32,
+      "speakerId": 1269,
+      "eventYear": "2008"
+    },
+    {
+      "sessionId": 58,
+      "speakerId": 1269,
+      "eventYear": "2008"
+    },
+    {
+      "sessionId": 61,
+      "speakerId": 1269,
+      "eventYear": "2008"
+    },
+    {
+      "sessionId": 86,
+      "speakerId": 620,
+      "eventYear": "2008"
+    },
+    {
+      "sessionId": 121,
+      "speakerId": 1124,
+      "eventYear": "2008"
+    },
+    {
+      "sessionId": 176,
+      "speakerId": 1124,
+      "eventYear": "2009"
+    },
+    {
+      "sessionId": 177,
+      "speakerId": 1124,
+      "eventYear": "2009"
+    },
+    {
+      "sessionId": 263,
+      "speakerId": 1269,
+      "eventYear": "2009"
+    },
+    {
+      "sessionId": 264,
+      "speakerId": 1269,
+      "eventYear": "2009"
+    },
+    {
+      "sessionId": 265,
+      "speakerId": 1269,
+      "eventYear": "2009"
+    },
+    {
+      "sessionId": 12,
+      "speakerId": 1124,
+      "eventYear": "2008"
+    },
+    {
+      "sessionId": 371,
+      "speakerId": 1124,
+      "eventYear": "2010"
+    },
+    {
+      "sessionId": 440,
+      "speakerId": 1269,
+      "eventYear": "2010"
+    },
+    {
+      "sessionId": 441,
+      "speakerId": 1269,
+      "eventYear": "2010"
+    },
+    {
+      "sessionId": 444,
+      "speakerId": 1269,
+      "eventYear": "2010"
+    },
+    {
+      "sessionId": 536,
+      "speakerId": 1124,
+      "eventYear": "2010"
+    },
+    {
+      "sessionId": 588,
+      "speakerId": 1124,
+      "eventYear": "2011"
+    },
+    {
+      "sessionId": 589,
+      "speakerId": 1124,
+      "eventYear": "2011"
+    },
+    {
+      "sessionId": 676,
+      "speakerId": 5443,
+      "eventYear": "2011"
+    },
+    {
+      "sessionId": 677,
+      "speakerId": 5443,
+      "eventYear": "2011"
+    },
+    {
+      "sessionId": 766,
+      "speakerId": 1269,
+      "eventYear": "2011"
+    },
+    {
+      "sessionId": 770,
+      "speakerId": 1269,
+      "eventYear": "2011"
+    },
+    {
+      "sessionId": 833,
+      "speakerId": 1124,
+      "eventYear": "2012"
+    },
+    {
+      "sessionId": 859,
+      "speakerId": 5443,
+      "eventYear": "2012"
+    },
+    {
+      "sessionId": 861,
+      "speakerId": 5443,
+      "eventYear": "2012"
+    },
+    {
+      "sessionId": 864,
+      "speakerId": 1269,
+      "eventYear": "2012"
+    },
+    {
+      "sessionId": 944,
+      "speakerId": 8367,
+      "eventYear": "2012"
+    },
+    {
+      "sessionId": 1011,
+      "speakerId": 8590,
+      "eventYear": "2012"
+    },
+    {
+      "sessionId": 1056,
+      "speakerId": 1124,
+      "eventYear": "2012"
+    },
+    {
+      "sessionId": 1086,
+      "speakerId": 8367,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1120,
+      "speakerId": 5443,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1125,
+      "speakerId": 5443,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1131,
+      "speakerId": 1269,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1133,
+      "speakerId": 8590,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1136,
+      "speakerId": 8590,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1198,
+      "speakerId": 1124,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1199,
+      "speakerId": 1124,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1252,
+      "speakerId": 10801,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1262,
+      "speakerId": 1269,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1352,
+      "speakerId": 1269,
+      "eventYear": "2013"
+    },
+    {
+      "sessionId": 1390,
+      "speakerId": 1124,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1412,
+      "speakerId": 8367,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1413,
+      "speakerId": 8367,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1416,
+      "speakerId": 1124,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1435,
+      "speakerId": 5443,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1440,
+      "speakerId": 1269,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1441,
+      "speakerId": 1269,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1444,
+      "speakerId": 10801,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1445,
+      "speakerId": 10801,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1454,
+      "speakerId": 8590,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 1455,
+      "speakerId": 8590,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 2557,
+      "speakerId": 1269,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 2529,
+      "speakerId": 1269,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 2577,
+      "speakerId": 5443,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 3643,
+      "speakerId": 1124,
+      "eventYear": "2014"
+    },
+    {
+      "sessionId": 3687,
+      "speakerId": 1124,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 3694,
+      "speakerId": 1269,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 3696,
+      "speakerId": 1124,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 3701,
+      "speakerId": 8367,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 3703,
+      "speakerId": 8367,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 4726,
+      "speakerId": 1124,
+      "eventYear": "2015sf"
+    },
+    {
+      "sessionId": 4765,
+      "speakerId": 8590,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 4819,
+      "speakerId": 5443,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 4820,
+      "speakerId": 14918,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 4835,
+      "speakerId": 1269,
+      "eventYear": "2015fall"
+    },
+    {
+      "sessionId": 4860,
+      "speakerId": 1269,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 5922,
+      "speakerId": 1269,
+      "eventYear": "2015"
+    },
+    {
+      "sessionId": 5984,
+      "speakerId": 8367,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 5986,
+      "speakerId": 8367,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 5987,
+      "speakerId": 1124,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 6012,
+      "speakerId": 14918,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 6060,
+      "speakerId": 1269,
+      "eventYear": "2016fall"
+    },
+    {
+      "sessionId": 6080,
+      "speakerId": 8590,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 6085,
+      "speakerId": 10801,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 6089,
+      "speakerId": 620,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 6171,
+      "speakerId": 1124,
+      "eventYear": "2016"
+    },
+    {
+      "sessionId": 6184,
+      "speakerId": 5443,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 6205,
+      "speakerId": 1269,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 6208,
+      "speakerId": 1124,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 6209,
+      "speakerId": 1124,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 6214,
+      "speakerId": 8590,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 6227,
+      "speakerId": 8367,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 6229,
+      "speakerId": 8367,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 7242,
+      "speakerId": 10801,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 7256,
+      "speakerId": 1124,
+      "eventYear": "2017"
+    },
+    {
+      "sessionId": 7341,
+      "speakerId": 14918,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7346,
+      "speakerId": 10801,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7366,
+      "speakerId": 8367,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7367,
+      "speakerId": 8367,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7368,
+      "speakerId": 8367,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7379,
+      "speakerId": 1269,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7401,
+      "speakerId": 8590,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7402,
+      "speakerId": 8590,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7417,
+      "speakerId": 1124,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7418,
+      "speakerId": 1124,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7440,
+      "speakerId": 620,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7460,
+      "speakerId": 8590,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7465,
+      "speakerId": 1124,
+      "eventYear": "2018"
+    },
+    {
+      "sessionId": 7486,
+      "speakerId": 1269,
+      "eventYear": "2019"
+    },
+    {
+      "sessionId": 7489,
+      "speakerId": 1124,
+      "eventYear": "2019"
+    },
+    {
+      "sessionId": 7497,
+      "speakerId": 14918,
+      "eventYear": "2019"
+    },
+    {
+      "sessionId": 7515,
+      "speakerId": 8590,
+      "eventYear": "2019"
+    },
+    {
+      "sessionId": 7548,
+      "speakerId": 47343,
+      "eventYear": "2019"
+    },
+    {
+      "sessionId": 7549,
+      "speakerId": 46769,
+      "eventYear": "2019"
+    },
+    {
+      "sessionId": 7551,
+      "speakerId": 620,
+      "eventYear": "2019"
+    },
+    {
+      "sessionId": 7569,
+      "speakerId": 1124,
+      "eventYear": "2019"
+    }
+  ]
+}

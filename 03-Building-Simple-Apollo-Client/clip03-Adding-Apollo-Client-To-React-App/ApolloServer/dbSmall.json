@@ -1,0 +1,93 @@
+{
+  "speakers": [
+    {
+      "twitterHandle": "arungupta",
+      "company": "Couchbase",
+      "id": 1269,
+      "bio": "Arun Gupta is a Principal Open Source Technologist at Amazon Web Services. ",
+      "first": "Arun",
+      "last": "Gupta",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "@crichardson",
+      "company": "Eventuate, Inc",
+      "id": 8590,
+      "bio": "Founder of Eventuate, Author of POJOs in Action, creator of the original Cloud Foundry",
+      "first": "Chris",
+      "last": "Richardson",
+      "favorite": true
+    },
+    {
+      "twitterHandle": "@mark__a",
+      "company": "Printform Corporation",
+      "id": 5443,
+      "bio": "Mark is a globally recognized expert on digital printing for industrial and packaging applications.",
+      "first": "Mark",
+      "last": "Abramson",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "",
+      "company": "",
+      "id": 1124,
+      "bio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+      "first": "Douglas",
+      "last": "Crockford",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "@therockncoder",
+      "company": "Kelley Blue Book",
+      "id": 10801,
+      "bio": "An award winning developer and author.",
+      "first": "Troy",
+      "last": "Miles",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "@eveporcello",
+      "company": "Moon Highway",
+      "id": 47343,
+      "bio": "Eve Porcello is an instructor at Moon Highway, egghead.io, and LinkedIn Learning.",
+      "first": "Eve",
+      "last": "Porcello",
+      "favorite": true
+    },
+    {
+      "twitterHandle": "@cgalvan",
+      "company": "Early Stage Innovation",
+      "id": 14918,
+      "bio": "Claudia is a leading expert on product internationalization",
+      "first": "Claudia",
+      "last": "Galvan",
+      "favorite": true
+    },
+    {
+      "twitterHandle": "mgrygles",
+      "company": "IBM",
+      "id": 46769,
+      "bio": "Mary is a passionate developer advocate by day, and a very active tech community organizer by night.",
+      "first": "Mary",
+      "last": "Grygleski",
+      "favorite": false
+    },
+    {
+      "twitterHandle": "gayle",
+      "company": "CareerCup",
+      "id": 8367,
+      "bio": "Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books.",
+      "first": "Gayle Laakmann",
+      "last": "McDowell",
+      "favorite": false
+    },
+    {
+      "company": "De Anza College",
+      "id": 620,
+      "bio": "Ron teaches Object Oriented Analysis and Design at De Anza College ",
+      "first": "Ron",
+      "last": "Kleinman",
+      "favorite": false
+    }
+  ]
+}

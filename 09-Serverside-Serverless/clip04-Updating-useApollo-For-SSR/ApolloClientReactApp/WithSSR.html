@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style data-next-hide-fouc="true">
+      body {
+        display: none;
+      }
+    </style>
+    <noscript data-next-hide-fouc="true"
+      ><style>
+        body {
+          display: block;
+        }
+      </style></noscript
+    >
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link href="css/style-speakers.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <noscript data-n-css="true"></noscript>
+    <link
+      rel="preload"
+      href="/_next/static/chunks/main.js?ts=1605572728248"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/webpack.js?ts=1605572728248"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/pages/_app.js?ts=1605572728248"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/pages/index.js?ts=1605572728248"
+      as="script"
+    />
+    <noscript id="__next_css__DO_NOT_USE__"></noscript>
+  </head>
+  <body>
+    <div id="__next">
+      <section class="toolbar">
+        <div class="container">
+          <ul class="toolrow">
+            <li>
+              <div class="pagination">
+                <a class="page-link" href="#" aria-label="First"
+                  ><i class="fa fa-angle-double-left" aria-hidden="true"></i></a
+                ><a class="page-link" href="#" aria-label="Previous"
+                  ><i class="fa fa-angle-left" aria-hidden="true"></i
+                ></a>
+                <!-- -->1<!-- -->
+                <a class="page-link" href="#" aria-label="Next"
+                  ><i class="fa fa-angle-right" aria-hidden="true"></i></a
+                ><a class="page-link" href="#" aria-label="Last"
+                  ><i class="fa fa-angle-double-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </li>
+            <li>
+              <label class="dropmenu"
+                ><select class="form-control theme">
+                  <option selected="" value="light">Light</option>
+                  <option value="dark">Dark</option>
+                </select></label
+              >
+            </li>
+            <li>
+              <div>
+                <button type="button" class="btn btn-info">
+                  <span>Insert Speaker</span>
+                </button>
+                <button type="button" class="btn btn-info">
+                  <span>Sort Speakers By Id Descending</span>
+                </button>
+                <button type="button" class="btn btn-info">
+                  <span>Toggle All Checked</span>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="container show-fav">
+        <div class="row">
+          <div class="fav-list">
+            <div class="favbox">
+              <div class="fav-clm col-sm-7">
+                <span class="fa fa-square-o"></span>
+                <h4>
+                  Arun Gupta<!-- -->
+                  (<!-- -->1269<!-- -->)
+                </h4>
+              </div>
+              <div class="fav-clm col-sm-5">
+                <div class="action">
+                  <span
+                    ><div class="fa fa-star-o orange"></div>
+                    Favorite</span
+                  ><span><i class="fa fa-trash red"></i> Delete</span>
+                </div>
+              </div>
+            </div>
+            <div class="favbox">
+              <div class="fav-clm col-sm-7">
+                <span class="fa fa-square-o"></span>
+                <h4>
+                  Chris Richardson<!-- -->
+                  (<!-- -->8590<!-- -->)
+                </h4>
+              </div>
+              <div class="fav-clm col-sm-5">
+                <div class="action">
+                  <span
+                    ><div class="fa fa-star-o orange"></div>
+                    Favorite</span
+                  ><span><i class="fa fa-trash red"></i> Delete</span>
+                </div>
+              </div>
+            </div>
+            <div class="favbox">
+              <div class="fav-clm col-sm-7">
+                <span class="fa fa-square-o"></span>
+                <h4>
+                  Mark Abramson<!-- -->
+                  (<!-- -->5443<!-- -->)
+                </h4>
+              </div>
+              <div class="fav-clm col-sm-5">
+                <div class="action">
+                  <span
+                    ><div class="fa fa-star-o orange"></div>
+                    Favorite</span
+                  ><span><i class="fa fa-trash red"></i> Delete</span>
+                </div>
+              </div>
+            </div>
+            <div class="favbox">
+              <div class="fav-clm col-sm-7">
+                <span class="fa fa-square-o"></span>
+                <h4>
+                  Douglas Crockford<!-- -->
+                  (<!-- -->1124<!-- -->)
+                </h4>
+              </div>
+              <div class="fav-clm col-sm-5">
+                <div class="action">
+                  <span
+                    ><div class="fa fa-star-o orange"></div>
+                    Favorite</span
+                  ><span><i class="fa fa-trash red"></i> Delete</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/_next/static/chunks/react-refresh.js?ts=1605572728248"></script>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "initialApolloState": {
+              "Session:32": {
+                "id": "32",
+                "__typename": "Session",
+                "title": "Rails powered by GlassFish",
+                "eventYear": "2008",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:58": {
+                "id": "58",
+                "__typename": "Session",
+                "title": "Metro: Hello World to .NET 3.5 interoperable Web service",
+                "eventYear": "2008",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:61": {
+                "id": "61",
+                "__typename": "Session",
+                "title": "GlassFish: On a mission to please developers",
+                "eventYear": "2008",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:263": {
+                "id": "263",
+                "__typename": "Session",
+                "title": "Java EE 6 and GlassFish v3: Paving the path for future",
+                "eventYear": "2009",
+                "room": { "__typename": "Room", "name": "5502" }
+              },
+              "Session:264": {
+                "id": "264",
+                "__typename": "Session",
+                "title": "Using Eclipse for Java EE 6 development for the GlassFish™ Application Server",
+                "eventYear": "2009",
+                "room": { "__typename": "Room", "name": "5503" }
+              },
+              "Session:265": {
+                "id": "265",
+                "__typename": "Session",
+                "title": "(CANCELLED) Dynamic Languages \u0026amp; Web Frameworks in GlassFish",
+                "eventYear": "2009",
+                "room": { "__typename": "Room", "name": "4204" }
+              },
+              "Session:440": {
+                "id": "440",
+                "__typename": "Session",
+                "title": "Java EE 6: Doing More With Less",
+                "eventYear": "2010",
+                "room": { "__typename": "Room", "name": "8401" }
+              },
+              "Session:441": {
+                "id": "441",
+                "__typename": "Session",
+                "title": "OSGi and Java EE in GlassFish",
+                "eventYear": "2010",
+                "room": { "__typename": "Room", "name": "4220" }
+              },
+              "Session:444": {
+                "id": "444",
+                "__typename": "Session",
+                "title": "Running your Java EE 6 application in the Cloud",
+                "eventYear": "2010",
+                "room": { "__typename": "Room", "name": "3106" }
+              },
+              "Session:766": {
+                "id": "766",
+                "__typename": "Session",
+                "title": "Deploy and Monitor your Java EE 6 session in a fully-clustered GlassFish",
+                "eventYear": "2011",
+                "room": { "__typename": "Room", "name": "4201" }
+              },
+              "Session:770": {
+                "id": "770",
+                "__typename": "Session",
+                "title": "The Java EE 7 Platform: Developing for the Cloud",
+                "eventYear": "2011",
+                "room": { "__typename": "Room", "name": "4201" }
+              },
+              "Session:864": {
+                "id": "864",
+                "__typename": "Session",
+                "title": "RESTful Java on Steroids: JAX-RS 2.0",
+                "eventYear": "2012",
+                "room": { "__typename": "Room", "name": "5502" }
+              },
+              "Session:1131": {
+                "id": "1131",
+                "__typename": "Session",
+                "title": "50 new features of Java EE 7 in 50 minutes",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "3525" }
+              },
+              "Session:1262": {
+                "id": "1262",
+                "__typename": "Session",
+                "title": "Minecraft Modding Workshop (Part 1 of 2)",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "PSEC4603" }
+              },
+              "Session:1352": {
+                "id": "1352",
+                "__typename": "Session",
+                "title": "Minecraft Modding Workshop (Part 2 of 2)",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "PSEC4603" }
+              },
+              "Session:1440": {
+                "id": "1440",
+                "__typename": "Session",
+                "title": " All about WildFly, Only using demos",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "4302" }
+              },
+              "Session:1441": {
+                "id": "1441",
+                "__typename": "Session",
+                "title": "Java EE 7 development using Eclipse",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "4301" }
+              },
+              "Session:2529": {
+                "id": "2529",
+                "__typename": "Session",
+                "title": "Introductory Minecraft Modding with Forge - Part 1",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "PSEC4501" }
+              },
+              "Session:2557": {
+                "id": "2557",
+                "__typename": "Session",
+                "title": "Introductory Minecraft Modding with Forge - Part II",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "PSEC4501" }
+              },
+              "Session:3694": {
+                "id": "3694",
+                "__typename": "Session",
+                "title": "Docker and Kubernetes Recipes for Java Applications",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "AD-123" }
+              },
+              "Session:4835": {
+                "id": "4835",
+                "__typename": "Session",
+                "title": "Docker and Kubernetes Workshop",
+                "eventYear": "2015fall",
+                "room": { "__typename": "Room", "name": "RD-301" }
+              },
+              "Session:4860": {
+                "id": "4860",
+                "__typename": "Session",
+                "title": "Minecraft Modding with Forge - Part 1",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "AB-142" }
+              },
+              "Session:5922": {
+                "id": "5922",
+                "__typename": "Session",
+                "title": "Minecraft Modding with Forge - Part 2",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "AB-142" }
+              },
+              "Session:6060": {
+                "id": "6060",
+                "__typename": "Session",
+                "title": "Package, Deploy, Scale Your Applications Using Docker and Kubernetes",
+                "eventYear": "2016fall",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:6205": {
+                "id": "6205",
+                "__typename": "Session",
+                "title": "Service Discovery in Container Orchestration Frameworks",
+                "eventYear": "2017",
+                "room": { "__typename": "Room", "name": "Town Square C" }
+              },
+              "Session:7379": {
+                "id": "7379",
+                "__typename": "Session",
+                "title": "Java developer’s journey in Kubernetes land",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Fireside C" }
+              },
+              "Session:7486": {
+                "id": "7486",
+                "__typename": "Session",
+                "title": "Using Kubernetes for Machine Learning Frameworks",
+                "eventYear": "2019",
+                "room": { "__typename": "Room", "name": "Town Square A" }
+              },
+              "Speaker:1269": {
+                "id": "1269",
+                "__typename": "Speaker",
+                "first": "Arun",
+                "last": "Gupta",
+                "favorite": false,
+                "company": "Couchbase",
+                "twitterHandle": "arungupta",
+                "bio": "Arun Gupta is a Principal Open Source Technologist at Amazon Web Services. ",
+                "sessions": [
+                  { "__ref": "Session:32" },
+                  { "__ref": "Session:58" },
+                  { "__ref": "Session:61" },
+                  { "__ref": "Session:263" },
+                  { "__ref": "Session:264" },
+                  { "__ref": "Session:265" },
+                  { "__ref": "Session:440" },
+                  { "__ref": "Session:441" },
+                  { "__ref": "Session:444" },
+                  { "__ref": "Session:766" },
+                  { "__ref": "Session:770" },
+                  { "__ref": "Session:864" },
+                  { "__ref": "Session:1131" },
+                  { "__ref": "Session:1262" },
+                  { "__ref": "Session:1352" },
+                  { "__ref": "Session:1440" },
+                  { "__ref": "Session:1441" },
+                  { "__ref": "Session:2529" },
+                  { "__ref": "Session:2557" },
+                  { "__ref": "Session:3694" },
+                  { "__ref": "Session:4835" },
+                  { "__ref": "Session:4860" },
+                  { "__ref": "Session:5922" },
+                  { "__ref": "Session:6060" },
+                  { "__ref": "Session:6205" },
+                  { "__ref": "Session:7379" },
+                  { "__ref": "Session:7486" }
+                ]
+              },
+              "Session:1011": {
+                "id": "1011",
+                "__typename": "Session",
+                "title": "Decomposing applications for scalability and deployability",
+                "eventYear": "2012",
+                "room": { "__typename": "Room", "name": "4306" }
+              },
+              "Session:1133": {
+                "id": "1133",
+                "__typename": "Session",
+                "title": "Developing polyglot persistence applications",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "5502" }
+              },
+              "Session:1136": {
+                "id": "1136",
+                "__typename": "Session",
+                "title": "Consuming web services asynchronously with Futures and Rx Observables",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "8338" }
+              },
+              "Session:1454": {
+                "id": "1454",
+                "__typename": "Session",
+                "title": "Developing applications with a micro-service architecture",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "8338" }
+              },
+              "Session:1455": {
+                "id": "1455",
+                "__typename": "Session",
+                "title": "Map, flatmap and reduce are your new best friends",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "5502" }
+              },
+              "Session:4765": {
+                "id": "4765",
+                "__typename": "Session",
+                "title": "Developing event-driven microservices with event sourcing and CQRS",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "AB-201" }
+              },
+              "Session:6080": {
+                "id": "6080",
+                "__typename": "Session",
+                "title": "Developing Microservices with Aggregates",
+                "eventYear": "2016",
+                "room": { "__typename": "Room", "name": "RF-141" }
+              },
+              "Session:6214": {
+                "id": "6214",
+                "__typename": "Session",
+                "title": "There Is No Such Thing as a Microservice!",
+                "eventYear": "2017",
+                "room": { "__typename": "Room", "name": "Town Square C" }
+              },
+              "Session:7401": {
+                "id": "7401",
+                "__typename": "Session",
+                "title": "Developing Asynchronous, Message-Driven Microservices",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Round Table" }
+              },
+              "Session:7402": {
+                "id": "7402",
+                "__typename": "Session",
+                "title": "Microservices: Decomposing Applications for Testability and Deployability",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Town Square B" }
+              },
+              "Session:7460": {
+                "id": "7460",
+                "__typename": "Session",
+                "title": "Microservices and Serverless Speaker Panel – The Road Ahead",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Town Square B" }
+              },
+              "Session:7515": {
+                "id": "7515",
+                "__typename": "Session",
+                "title": "Cubes, Hexagons and More: Understanding the Microservices Through Shapes",
+                "eventYear": "2019",
+                "room": { "__typename": "Room", "name": "Town Square C" }
+              },
+              "Speaker:8590": {
+                "id": "8590",
+                "__typename": "Speaker",
+                "first": "Chris",
+                "last": "Richardson",
+                "favorite": false,
+                "company": "Eventuate, Inc",
+                "twitterHandle": "@crichardson",
+                "bio": "Founder of Eventuate, Author of POJOs in Action, creator of the original Cloud Foundry",
+                "sessions": [
+                  { "__ref": "Session:1011" },
+                  { "__ref": "Session:1133" },
+                  { "__ref": "Session:1136" },
+                  { "__ref": "Session:1454" },
+                  { "__ref": "Session:1455" },
+                  { "__ref": "Session:4765" },
+                  { "__ref": "Session:6080" },
+                  { "__ref": "Session:6214" },
+                  { "__ref": "Session:7401" },
+                  { "__ref": "Session:7402" },
+                  { "__ref": "Session:7460" },
+                  { "__ref": "Session:7515" }
+                ]
+              },
+              "Session:676": {
+                "id": "676",
+                "__typename": "Session",
+                "title": "Accelerate your database development with Object-Relational Mapping (OR/M) in .NET",
+                "eventYear": "2011",
+                "room": { "__typename": "Room", "name": "8401" }
+              },
+              "Session:677": {
+                "id": "677",
+                "__typename": "Session",
+                "title": "Introduction to Database Design with Entity Relationship (ER) Diagrams",
+                "eventYear": "2011",
+                "room": { "__typename": "Room", "name": "5501" }
+              },
+              "Session:859": {
+                "id": "859",
+                "__typename": "Session",
+                "title": "Database Design Troubleshooting, repair and wart removal",
+                "eventYear": "2012",
+                "room": { "__typename": "Room", "name": "3525" }
+              },
+              "Session:861": {
+                "id": "861",
+                "__typename": "Session",
+                "title": "Introduction to Database Design with Entity Relationship (ER) Diagrams",
+                "eventYear": "2012",
+                "room": { "__typename": "Room", "name": "3525" }
+              },
+              "Session:1120": {
+                "id": "1120",
+                "__typename": "Session",
+                "title": "Intro to Relational Database Design \u0026 Entity-Relationship Diagrams",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "1501" }
+              },
+              "Session:1125": {
+                "id": "1125",
+                "__typename": "Session",
+                "title": "Advanced Data Modeling with Entity Relationship Diagrams",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "PSEC4501" }
+              },
+              "Session:1435": {
+                "id": "1435",
+                "__typename": "Session",
+                "title": "Intro to Relational Database Design \u0026 Entity-Relationship Diagrams",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "8402" }
+              },
+              "Session:2577": {
+                "id": "2577",
+                "__typename": "Session",
+                "title": "Lean Startup for Engineers",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "8402" }
+              },
+              "Session:4819": {
+                "id": "4819",
+                "__typename": "Session",
+                "title": "Lean Startup for Engineers",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "AC-162" }
+              },
+              "Session:6184": {
+                "id": "6184",
+                "__typename": "Session",
+                "title": "Lean Startup for Engineers",
+                "eventYear": "2017",
+                "room": { "__typename": "Room", "name": "Fireside D" }
+              },
+              "Speaker:5443": {
+                "id": "5443",
+                "__typename": "Speaker",
+                "first": "Mark",
+                "last": "Abramson",
+                "favorite": false,
+                "company": "Printform Corporation",
+                "twitterHandle": "@mark__a",
+                "bio": "Mark is a globally recognized expert on digital printing for industrial and packaging applications.",
+                "sessions": [
+                  { "__ref": "Session:676" },
+                  { "__ref": "Session:677" },
+                  { "__ref": "Session:859" },
+                  { "__ref": "Session:861" },
+                  { "__ref": "Session:1120" },
+                  { "__ref": "Session:1125" },
+                  { "__ref": "Session:1435" },
+                  { "__ref": "Session:2577" },
+                  { "__ref": "Session:4819" },
+                  { "__ref": "Session:6184" }
+                ]
+              },
+              "Session:12": {
+                "id": "12",
+                "__typename": "Session",
+                "title": "JavaScript: The Good Parts (Part 1)",
+                "eventYear": "2008",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:121": {
+                "id": "121",
+                "__typename": "Session",
+                "title": "JavaScript: The Good Parts (Part 2)",
+                "eventYear": "2008",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:176": {
+                "id": "176",
+                "__typename": "Session",
+                "title": "JavaScript: The Good Parts",
+                "eventYear": "2009",
+                "room": { "__typename": "Room", "name": "5501" }
+              },
+              "Session:177": {
+                "id": "177",
+                "__typename": "Session",
+                "title": "JavaScript Town Meeting",
+                "eventYear": "2009",
+                "room": { "__typename": "Room", "name": "5501" }
+              },
+              "Session:371": {
+                "id": "371",
+                "__typename": "Session",
+                "title": "JavaScript: The Good Parts",
+                "eventYear": "2010",
+                "room": { "__typename": "Room", "name": "1501" }
+              },
+              "Session:536": {
+                "id": "536",
+                "__typename": "Session",
+                "title": "Talk with Crock",
+                "eventYear": "2010",
+                "room": { "__typename": "Room", "name": "1501" }
+              },
+              "Session:588": {
+                "id": "588",
+                "__typename": "Session",
+                "title": "ECMAScript 5: The New Parts",
+                "eventYear": "2011",
+                "room": { "__typename": "Room", "name": "1501" }
+              },
+              "Session:589": {
+                "id": "589",
+                "__typename": "Session",
+                "title": "ECMAScript: What Next?",
+                "eventYear": "2011",
+                "room": { "__typename": "Room", "name": "1501" }
+              },
+              "Session:833": {
+                "id": "833",
+                "__typename": "Session",
+                "title": "Programming Style and Your Brain",
+                "eventYear": "2012",
+                "room": { "__typename": "Room", "name": "SmithWick" }
+              },
+              "Session:1056": {
+                "id": "1056",
+                "__typename": "Session",
+                "title": "Monads and Gonads",
+                "eventYear": "2012",
+                "room": { "__typename": "Room", "name": "SmithWick" }
+              },
+              "Session:1198": {
+                "id": "1198",
+                "__typename": "Session",
+                "title": "Fun with Functions (Part 1)",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "SmithWick" }
+              },
+              "Session:1199": {
+                "id": "1199",
+                "__typename": "Session",
+                "title": "Fun with Functions (Part 2)",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "SmithWick" }
+              },
+              "Session:1390": {
+                "id": "1390",
+                "__typename": "Session",
+                "title": "Fun with Functions in JavaScript (Full Day)",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:1416": {
+                "id": "1416",
+                "__typename": "Session",
+                "title": "The Better Parts",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "SmithWick" }
+              },
+              "Session:3643": {
+                "id": "3643",
+                "__typename": "Session",
+                "title": "Managing Programmers. Programmers are not like the other kids",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "1501" }
+              },
+              "Session:3687": {
+                "id": "3687",
+                "__typename": "Session",
+                "title": "The Better Parts",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "VPA-Theater" }
+              },
+              "Session:3696": {
+                "id": "3696",
+                "__typename": "Session",
+                "title": "Managing Programmers",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "VPA-Theater" }
+              },
+              "Session:4726": {
+                "id": "4726",
+                "__typename": "Session",
+                "title": "Upgrading the Web",
+                "eventYear": "2015sf",
+                "room": { "__typename": "Room", "name": "Cornell Hall" }
+              },
+              "Session:5987": {
+                "id": "5987",
+                "__typename": "Session",
+                "title": "The Seif Project Continued",
+                "eventYear": "2016",
+                "room": { "__typename": "Room", "name": "VPA-Theater" }
+              },
+              "Session:6171": {
+                "id": "6171",
+                "__typename": "Session",
+                "title": "The Post Javascript Apocalypse",
+                "eventYear": "2016",
+                "room": { "__typename": "Room", "name": "VPA-Theater" }
+              },
+              "Session:6208": {
+                "id": "6208",
+                "__typename": "Session",
+                "title": "Numbers",
+                "eventYear": "2017",
+                "room": { "__typename": "Room", "name": "Town Square B" }
+              },
+              "Session:6209": {
+                "id": "6209",
+                "__typename": "Session",
+                "title": "Character Sets",
+                "eventYear": "2017",
+                "room": { "__typename": "Room", "name": "Town Square B" }
+              },
+              "Session:7256": {
+                "id": "7256",
+                "__typename": "Session",
+                "title": "Principles of Security",
+                "eventYear": "2017",
+                "room": { "__typename": "Room", "name": "Town Square B" }
+              },
+              "Session:7417": {
+                "id": "7417",
+                "__typename": "Session",
+                "title": "How JavaScript Works",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Town Square A" }
+              },
+              "Session:7418": {
+                "id": "7418",
+                "__typename": "Session",
+                "title": "Q\u0026A With Douglas Crockford",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Fireside A" }
+              },
+              "Session:7465": {
+                "id": "7465",
+                "__typename": "Session",
+                "title": "Web Panel with Douglas Crockford, Steve Souders and Mike North",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Town Square B" }
+              },
+              "Session:7489": {
+                "id": "7489",
+                "__typename": "Session",
+                "title": "The History of JSON",
+                "eventYear": "2019",
+                "room": { "__typename": "Room", "name": "Town Square A" }
+              },
+              "Session:7569": {
+                "id": "7569",
+                "__typename": "Session",
+                "title": "You Can Count on Numbers",
+                "eventYear": "2019",
+                "room": { "__typename": "Room", "name": "Town Square A" }
+              },
+              "Speaker:1124": {
+                "id": "1124",
+                "__typename": "Speaker",
+                "first": "Douglas",
+                "last": "Crockford",
+                "favorite": false,
+                "company": "",
+                "twitterHandle": "",
+                "bio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+                "sessions": [
+                  { "__ref": "Session:12" },
+                  { "__ref": "Session:121" },
+                  { "__ref": "Session:176" },
+                  { "__ref": "Session:177" },
+                  { "__ref": "Session:371" },
+                  { "__ref": "Session:536" },
+                  { "__ref": "Session:588" },
+                  { "__ref": "Session:589" },
+                  { "__ref": "Session:833" },
+                  { "__ref": "Session:1056" },
+                  { "__ref": "Session:1198" },
+                  { "__ref": "Session:1199" },
+                  { "__ref": "Session:1390" },
+                  { "__ref": "Session:1416" },
+                  { "__ref": "Session:3643" },
+                  { "__ref": "Session:3687" },
+                  { "__ref": "Session:3696" },
+                  { "__ref": "Session:4726" },
+                  { "__ref": "Session:5987" },
+                  { "__ref": "Session:6171" },
+                  { "__ref": "Session:6208" },
+                  { "__ref": "Session:6209" },
+                  { "__ref": "Session:7256" },
+                  { "__ref": "Session:7417" },
+                  { "__ref": "Session:7418" },
+                  { "__ref": "Session:7465" },
+                  { "__ref": "Session:7489" },
+                  { "__ref": "Session:7569" }
+                ]
+              },
+              "ROOT_QUERY": {
+                "__typename": "Query",
+                "speakers({\"limit\":4,\"offset\":0})": {
+                  "__typename": "SpeakerResults",
+                  "datalist": [
+                    { "__ref": "Speaker:1269" },
+                    { "__ref": "Speaker:8590" },
+                    { "__ref": "Speaker:5443" },
+                    { "__ref": "Speaker:1124" }
+                  ],
+                  "pageInfo": { "__typename": "PageInfo", "totalItemCount": 10 }
+                },
+                "speakers({\"limit\":4,\"offset\":4})": {
+                  "__typename": "SpeakerResults",
+                  "datalist": [
+                    { "__ref": "Speaker:10801" },
+                    { "__ref": "Speaker:47343" },
+                    { "__ref": "Speaker:14918" },
+                    { "__ref": "Speaker:46769" }
+                  ],
+                  "pageInfo": { "__typename": "PageInfo", "totalItemCount": 10 }
+                }
+              },
+              "Session:1252": {
+                "id": "1252",
+                "__typename": "Session",
+                "title": "Beginning HTML5 Mobile Game Programming",
+                "eventYear": "2013",
+                "room": { "__typename": "Room", "name": "8338" }
+              },
+              "Session:1444": {
+                "id": "1444",
+                "__typename": "Session",
+                "title": "Intro to Mobile Game Programming with Cocos2d-x, Part 1",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "4220" }
+              },
+              "Session:1445": {
+                "id": "1445",
+                "__typename": "Session",
+                "title": "Intro to Mobile Game Programming with Cocos2d-x, Part 2",
+                "eventYear": "2014",
+                "room": { "__typename": "Room", "name": "4220" }
+              },
+              "Session:6085": {
+                "id": "6085",
+                "__typename": "Session",
+                "title": "Functional Programming in JavaScript",
+                "eventYear": "2016",
+                "room": { "__typename": "Room", "name": "Gullo II" }
+              },
+              "Session:7242": {
+                "id": "7242",
+                "__typename": "Session",
+                "title": "Creating an AWS Lambda Function with Kotlin",
+                "eventYear": "2017",
+                "room": { "__typename": "Room", "name": "Fireside D" }
+              },
+              "Session:7346": {
+                "id": "7346",
+                "__typename": "Session",
+                "title": "C++ Web Servers and APIs",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Fireside A" }
+              },
+              "Speaker:10801": {
+                "id": "10801",
+                "__typename": "Speaker",
+                "first": "Troy",
+                "last": "Miles",
+                "favorite": false,
+                "company": "Kelley Blue Book",
+                "twitterHandle": "@therockncoder",
+                "bio": "An award winning developer and author.",
+                "sessions": [
+                  { "__ref": "Session:1252" },
+                  { "__ref": "Session:1444" },
+                  { "__ref": "Session:1445" },
+                  { "__ref": "Session:6085" },
+                  { "__ref": "Session:7242" },
+                  { "__ref": "Session:7346" }
+                ]
+              },
+              "Session:7548": {
+                "id": "7548",
+                "__typename": "Session",
+                "title": "React Is Your Friend: A Gentle Intro to the React Library",
+                "eventYear": "2019",
+                "room": { "__typename": "Room", "name": "Town Square B" }
+              },
+              "Speaker:47343": {
+                "id": "47343",
+                "__typename": "Speaker",
+                "first": "Eve",
+                "last": "Porcello",
+                "favorite": true,
+                "company": "Moon Highway",
+                "twitterHandle": "@eveporcello",
+                "bio": "Eve Porcello is an instructor at Moon Highway, egghead.io, and LinkedIn Learning.",
+                "sessions": [{ "__ref": "Session:7548" }]
+              },
+              "Session:4820": {
+                "id": "4820",
+                "__typename": "Session",
+                "title": "Innovation for Women Engineers",
+                "eventYear": "2015",
+                "room": { "__typename": "Room", "name": "RE-311" }
+              },
+              "Session:6012": {
+                "id": "6012",
+                "__typename": "Session",
+                "title": "Internationalization at Startups",
+                "eventYear": "2016",
+                "room": { "__typename": "Room", "name": "S-160" }
+              },
+              "Session:7341": {
+                "id": "7341",
+                "__typename": "Session",
+                "title": "Advancing your Career through technical leadership skills ",
+                "eventYear": "2018",
+                "room": { "__typename": "Room", "name": "Town Square A" }
+              },
+              "Session:7497": {
+                "id": "7497",
+                "__typename": "Session",
+                "title": "GDPR and Privacy Around the World",
+                "eventYear": "2019",
+                "room": { "__typename": "Room", "name": "Fireside B" }
+              },
+              "Speaker:14918": {
+                "id": "14918",
+                "__typename": "Speaker",
+                "first": "Claudia",
+                "last": "Galvan",
+                "favorite": false,
+                "company": "Early Stage Innovation",
+                "twitterHandle": "@cgalvan",
+                "bio": "Claudia is a leading expert on product internationalization",
+                "sessions": [
+                  { "__ref": "Session:4820" },
+                  { "__ref": "Session:6012" },
+                  { "__ref": "Session:7341" },
+                  { "__ref": "Session:7497" }
+                ]
+              },
+              "Session:7549": {
+                "id": "7549",
+                "__typename": "Session",
+                "title": "A Gentle Intro to Reactive Java Programming and Systems",
+                "eventYear": "2019",
+                "room": { "__typename": "Room", "name": "Fireside A" }
+              },
+              "Speaker:46769": {
+                "id": "46769",
+                "__typename": "Speaker",
+                "first": "Mary",
+                "last": "Grygleski",
+                "favorite": true,
+                "company": "IBM",
+                "twitterHandle": "mgrygles",
+                "bio": "Mary is a passionate developer advocate by day, and a very active tech community organizer by night.",
+                "sessions": [{ "__ref": "Session:7549" }]
+              }
+            },
+            "currentPage": 1
+          },
+          "__N_SSP": true
+        },
+        "page": "/",
+        "query": {},
+        "buildId": "development",
+        "isFallback": false,
+        "gssp": true,
+        "head": [
+          ["meta", { "charSet": "utf-8" }],
+          ["meta", { "name": "viewport", "content": "width=device-width" }]
+        ]
+      }
+    </script>
+    <script
+      nomodule=""
+      src="/_next/static/chunks/polyfills.js?ts=1605572728248"
+    ></script>
+    <script src="/_next/static/chunks/main.js?ts=1605572728248"></script>
+    <script src="/_next/static/chunks/webpack.js?ts=1605572728248"></script>
+    <script src="/_next/static/chunks/pages/_app.js?ts=1605572728248"></script>
+    <script src="/_next/static/chunks/pages/index.js?ts=1605572728248"></script>
+    <script src="/_next/static/development/_buildManifest.js?ts=1605572728248"></script>
+    <script src="/_next/static/development/_ssgManifest.js?ts=1605572728248"></script>
+  </body>
+</html>
