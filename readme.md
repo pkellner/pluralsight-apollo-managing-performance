@@ -1,26 +1,23 @@
 # pluralsight-apollo-managing-performance 
 The master branch has all the source code to the Pluralsight course published by Peter Kellner November 19, 2020
 
-![Course Update Notice August 2020](Announcement-Update-August2020a.png)
+Course URL: 
 
-The Apollo GraphQL client and server work together well, bringing performance and workflow benefits to your total GraphQL solution, and is a game changer for delivering high quality production GraphQL solutions. In this course, Apollo: Performance Management Playbook, you’ll learn to improve the performance of both an Apollo server and an Apollo client. 
+![Benefits of Using Apollo Client and Server Together](m2-clip010-justmergingimage.gif)
 
-
-*[A new React Course from Peter Kellner "Designing React Components"](https://app.pluralsight.com/library/courses/react-components-designing)*
 
 ## Course Description
 
-React versions 16.8 and higher, include React Hooks which solve several problems that went unaddressed in previous versions. React Hooks provide a direct API to React concepts you already know about. Those concepts include props, state, context, refs and lifecycle events. React Hooks are designed for use in React Functional Components where previously there was no good way to manage state or lifecycle events.
+The Apollo GraphQL client and server work together well, bringing performance and workflow benefits to your total GraphQL solution, and is a game changer for delivering high quality production GraphQL solutions.
 
-In this course, you’ll learn how to use the top seven React Hooks as well as gain the knowledge and experience necessary to build your own customized composite Hook. Along the way, you’ll pick up techniques you can use building real world web apps that include how React Hooks can help you with REST services, reducers, authentication and more.
+In this course, Apollo: Performance Management Playbook, you’ll learn to improve the performance of both an Apollo server and an Apollo client. First, we’ll explore a simple implementation of an Apollo server, as long as it’s companion Apollo client can easily be setup to call it. Next, you’ll discover, how with doing no extra programming, you get a huge performance gain from the built-in cache baked into the Apollo client.
 
-When you are finished with this course, you’ll confidently be able to combine functional components with React Hooks to build first class React apps. Those apps can be written completely with functional components and React Hooks.
-
+Finally, you’ll learn many techniques for building highly interactive web pages that require both server and client programming including implementation paging, infinite scrolling and how to build an optimistic UI. 
 
 ## Getting Started
-1. **Install [Node 12.16.3 with NPM 6.14.4](https://nodejs.org)**. 
-2. **Clone this repository.** - `git clone https://github.com/pkellner/pluralsight-course-using-react-hooks` or [download the zip](https://github.com/pkellner/pluralsight-course-using-react-hooks/archive/master.zip)
-3. **Set your default directory to which module you want (example: cd 02-Basic-React-Hooks-useState-useRef-useEffect - `cd m6-add-rest-data-to-server-side-rendering`
+1. **Install [NPM 6.14.8](https://nodejs.org)**. 
+2. **Clone this repository.** - `git clone https://github.com/pkellner/pluralsight-apollo-managing-performance` or [download the zip](https://github.com/pkellner/pluralsight-apollo-managing-performance/archive/master.zip)
+3. **Set your default directory to which module you want (example: cd 04-Apollo-Client-Cache - `cd clip02-Normalizing-Data`
 4. **Install Node Packages with Dependencies.** - `npm install`
 5. **Install [this chrome extension](https://chrome.google.com/webstore/detail/nextjs-utilities-extensio/ffcogmoganomoabikgmcmckdgojnpldo) for viewing performance data (optional).**
 
@@ -28,25 +25,26 @@ When you are finished with this course, you’ll confidently be able to combine 
 
 ## Directory Structure Here
 
-Each of the 5 folders here represent one module of the course.  In each folder, there are subfolders that represent the completed code at the end of each clip. Where this is no clip reference, either there is no code in that clip or nothing changed from the previous clip.
+Each of the 8 folders here represent one module of the course.  In each folder, there are subfolders that represent the completed code at the end of each clip. Where this is no clip reference, either there is no code in that clip or nothing changed from the previous clip.
 
 Once in a clip directory, the easiest way to test the app is to first install the packages by typing at the root of that directory (in a terminal window or DOS prompt)
 
 `npm install`
 
-Then, do run the app you just need type
+Since every clip has both an Apollo Server and Apollo Client React app folder, you will need to do the following.
 
-`npm run dev`
+Always start the Apollo Server by first switching to the `ApolloServer` folder and entering the command `npm start`.
+
+Then, switch to the `ApolloClientReactApp` folder and enter the command `npm run dev`.
+
 
 And that will launch the web server on port 3000 where you can browser to it at the url: `http://localhost:3000`
 
-Starting in module 5, you'll need to launch the `json-server` to simulate a REST server.  To do that, you enter the command at a terminal or DOS prompt:
-
-`npm run json-server`
+GraphQL will be running on port 4000 and if you have gotten to the point in the course where we use a json-server, that will run on port 5000.
 
 ## Background
 
-This course uses the Next.js framework as a demonstraton vehicle for React Hooks. If you want to know more about Next.js you should watch my other course on Pluralsight titled "Building Server-side Rendered React Apps for Beginners". You can find it [here](https://www.pluralsight.com/courses/building-server-side-rendered-react-apps-beginners). 
+This course uses the Next.js framework as a demonstraton vehicle for the Apollo Client. If you want to know more about Next.js you should watch my other course on Pluralsight titled "Building Server-side Rendered React Apps for Beginners". You can find it [here](https://www.pluralsight.com/courses/building-server-side-rendered-react-apps-beginners). 
 
 ## Repo or Course Issues
 
