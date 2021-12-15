@@ -15,7 +15,7 @@
     "@apollo/client": "^3.2.5",
     "apollo-link": "^1.2.14",
     "apollo-link-http": "^1.5.17",
-    "apollo-link-persisted-queries": "^0.2.2",
+    "apollo-link-persisted-queries": "^0.2.5",
     "bootstrap": "^4.5.2",
     "graphql": "^15.3.0",
     "next": "^9.5.5",
