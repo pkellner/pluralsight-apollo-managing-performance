@@ -1,4 +1,17 @@
 # pluralsight-apollo-managing-performance 
+
+## OTHER Recently Released Courses From Peter Kellner
+
+| **Course**                                                                           | Release Date  |
+|-------------------------------------------------------------------------------------------------------------------------------|---------------|
+| **[Using Hooks in React 18](https://pluralsight.com/courses/react-18-using-hooks/)**                                          | November 2022 |
+| **[What is React](https://pluralsight.com/courses/react-what-is/)**                                          | August 2022   |
+| **[What's New in React 18](https://pluralsight.com/courses/react-18-whats-new/)**                                             | May 2022      |
+| **[Data and UI Patterns in React](https://github.com/pkellner/pluralsight-building-essential-ui-data-elements-in-react/)**    | December 2021 |
+
+<hr/>
+
+
 The master branch has all the source code to the Pluralsight course published by Peter Kellner November 19, 2020
 
 Course URL: https://pluralsight.com/courses/apollo-performance-management-playbook
